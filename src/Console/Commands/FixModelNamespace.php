@@ -21,7 +21,7 @@ class FixModelNamespace extends Command
      *
      * @var string
      */
-    protected $signature = 'otp-login:fix-model-namespaces';
+    protected $signature = 'file-manager:fix-model-namespaces';
 
     /**
      * The console command description.
