@@ -1,0 +1,28 @@
+{
+    "name": "amedev/file-manager",
+    "description": "Laravel File Manager Package",
+    "version": "dev-main",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "FileManager\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "league/flysystem-sftp-v3": "^3.30"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FileManager\\FileManagerServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "release": [
+            "@php release.php"
+        ]
+    }
+}
