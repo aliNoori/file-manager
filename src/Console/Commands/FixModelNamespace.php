@@ -55,7 +55,7 @@ class FixModelNamespace extends Command
             if (str_contains($content, 'namespace OtpLogin\Models')) {
                 // Replace with the application's namespace
                 $newContent = str_replace(
-                    'namespace OtpLogin\Models',
+                    'namespace FileManager\Models',
                     'namespace App\Models',
                     $content
                 );
