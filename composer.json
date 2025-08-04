@@ -1,7 +1,7 @@
 {
     "name": "amedev/file-manager",
     "description": "Laravel File Manager Package",
-    "version": "dev-main",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "autoload": {
