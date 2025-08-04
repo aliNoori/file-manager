@@ -52,7 +52,7 @@ class FixModelNamespace extends Command
             $content = File::get($file->getPathname());
 
             // Look for the default package namespace
-            if (str_contains($content, 'namespace OtpLogin\Models')) {
+            if (str_contains($content, 'namespace FileManager\Models')) {
                 // Replace with the application's namespace
                 $newContent = str_replace(
                     'namespace FileManager\Models',
